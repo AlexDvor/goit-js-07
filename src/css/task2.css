@@ -1,0 +1,11 @@
+.gallery {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageWrap {
+  width: 360px;
+}

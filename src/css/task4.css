@@ -1,0 +1,36 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-label {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form-wrap {
+  margin-bottom: 8px;
+}
+.modal-form-label > input {
+  width: 360px;
+  height: 40px;
+  padding: 4px 0px 4px 16px;
+}
+
+.submit-btn {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border: none;
+  width: 86px;
+  height: 40px;
+}

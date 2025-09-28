@@ -30,7 +30,7 @@ const images = [
 ];
 
 const createImgCard = img => {
-  return `<li><img src=${img.url} alt=${img.alt}></li>`;
+  return `<li class="imageWrap"><img src=${img.url} alt=${img.alt}></li>`;
 };
 
 const temp = images.map(item => createImgCard(item)).join('');

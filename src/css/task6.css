@@ -1,0 +1,41 @@
+#controls {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 32px;
+  background-color: #f6f6fe;
+}
+
+.input-amount {
+  padding: 8px 72px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+
+.btn {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  width: 120px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+}
+
+.btn-remove {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 44px;
+  background-color: #f6f6fe;
+}
