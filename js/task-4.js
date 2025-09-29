@@ -1,5 +1,5 @@
 const refs = {
-  form: document.querySelector('.js-login-form'),
+  form: document.querySelector('.login-form'),
 };
 
 const onSubmitForm = e => {

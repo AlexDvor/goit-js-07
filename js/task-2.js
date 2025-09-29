@@ -1,5 +1,5 @@
 const refs = {
-  boxImg: document.querySelector('.js-gallery'),
+  boxImg: document.querySelector('.gallery'),
 };
 
 const images = [

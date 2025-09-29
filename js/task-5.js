@@ -1,7 +1,7 @@
 const refs = {
   body: document.querySelector('body'),
-  msColor: document.querySelector('.js-color'),
-  btn: document.querySelector('.js-change-color'),
+  msColor: document.querySelector('.color'),
+  btn: document.querySelector('.change-color'),
 };
 
 function getRandomHexColor() {
